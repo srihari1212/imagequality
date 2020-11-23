@@ -1,0 +1,24 @@
+passpt
+
+ergas =< 20000, psnr >= 7, rase =< 3000, rmse =< 100, ssim >= 0.25, uqi >= 0.75 : safe
+
+pan
+ergas =< 40000, psnr >= 7.5, rase =< 6000, rmse =< 100,ssim >= 0.23,uqi >= 0.7
+
+dl
+ergas =< 30000, psnr >= 7, rase =< 4600, rmse =< 100, ssim >= 0.25, uqi >= 0.75
+ 
+adhf
+ergas =< 30000, psnr >= 10,rase =< 4000, rmse =< 80, ssim >= 0.3, uqi >= 0.75
+
+ahdb
+ergas =< 40000, psnr >= 10, rase =< 5500, rmse =< 80, ssim >= 0.3, uqi >= 0.75
+
+vidf
+ergas =< 30000, psnr >= 9, rase =< 4500, rmse =< 85, ssim >= 0.05, uqi >= 0.7
+
+vidb
+ergas =< 25000, psnr >= 6, rase =< 4000, rmse =< 104, ssim >= 0.2, uqi >= 0.65
+
+
+

@@ -1,0 +1,88 @@
+############################# Pytesseract ############################
+pytesseract:
+ - conf_1 : 80
+ - thres_1 : 40
+ - conf_2 : 70
+ - thres_2 : 20
+ - len_txts_1: 5
+ - len_txts_2 : 4
+---
+default : 
+  - ergas : 40000
+  - psnr : 7.5
+  - rase : 6000
+  - rmse : 100
+  - ssim : 0.23
+  - uqi : 0.7
+  - l : 1011
+  - b : 639
+---
+passport_front:
+  - ergas : 20000
+  - psnr : 7
+  - rase : 3000
+  - rmse : 100
+  - ssim : 0.25
+  - uqi : 0.75
+  - l: 984
+  - b : 692
+---
+pan:
+  - ergas : 40000
+  - psnr : 7.5
+  - rase : 6000
+  - rmse : 100
+  - ssim : 0.23
+  - uqi : 0.7
+  - l : 1011
+  - b : 639
+---
+driving_license_front:
+  - ergas : 30000
+  - psnr : 7
+  - rase : 4600
+  - rmse : 100
+  - ssim : 0.25
+  - uqi : 0.75
+  - l : 1011
+  - b : 639
+---
+Aadhaar_front:
+  - ergas : 30000
+  - psnr : 10
+  - rase : 4000
+  - rmse : 80
+  - ssim : 0.3
+  - uqi : 0.75
+  - l : 1011
+  - b : 639
+---
+Aadhaar_back:
+  - ergas : 40000
+  - psnr : 10
+  - rase : 5500
+  - rmse : 80
+  - ssim : 0.3
+  - uqi : 0.75
+  - l : 1011
+  - b : 639
+---
+Voter_id_front:
+  - ergas : 30000
+  - psnr : 9
+  - rase : 4500
+  - rmse : 85
+  - ssim : 0.05
+  - uqi : 0.7
+  - l : 639
+  - b : 1011
+---
+Voter_id_back:
+  - ergas : 25000
+  - psnr : 6
+  - rase : 4000
+  - rmse : 104
+  - ssim : 0.2
+  - uqi : 0.65
+  - l : 639
+  - b : 1011
